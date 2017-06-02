@@ -1,0 +1,29 @@
+MariaDB [workbook]> select
+    ->
+    -> referer as リンク,
+    ->
+    -> count(*) AS アクセス数,
+    ->
+    -> case
+    ->
+    -> when count(*) < 10 then 'C'
+    -> when count(*) < 50 then 'B'
+    -> else 'A'
+    ->
+    -> end AS ランク
+    ->
+    ->
+    -> from access_log
+    ->
+    -> group by referer;
++---------------------------+------------+--------+
+| リンク                    | アクセス数 | ランク |
++---------------------------+------------+--------+
+| NULL                      |          2 | C      |
+| http://wings.msn.to/hamu/ |        100 | A      |
+| http://wings.msn.to/inu/  |          3 | C      |
+| http://wings.msn.to/kame/ |          3 | C      |
+| http://wings.msn.to/neko/ |         11 | B      |
+| http://wings.msn.to/saru/ |          4 | C      |
+| http://wings.msn.to/tori/ |          3 | C      |
++---------------------------+------------+--------+
