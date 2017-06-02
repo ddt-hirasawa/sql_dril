@@ -1,0 +1,43 @@
+MariaDB [workbook]> select
+    ->
+    -> CONCAT(l_name,f_name),
+    ->
+    -> case
+    ->
+    -> when class in ('‰Û’·','•”’·') then 'ŠÇ—E'
+    -> when class in ('Žå”C','’S“–') then '‘‡E'
+    -> else 'ˆê”ÊE'
+    ->
+    -> END AS –ðEƒNƒ‰ƒX
+    ->
+    -> from employee;
++-----------------------+------------+
+| CONCAT(l_name,f_name) | –ðEƒNƒ‰ƒX |
++-----------------------+------------+
+| ‘Š‘ò‘                | ŠÇ—E     |
+| ‘å–åˆê˜Y              | ‘‡E     |
+| “¡ˆä—Y‘¾              | ‘‡E     |
+| “¡‰ªK‘¾˜Y            | ‘‡E     |
+| ‘¬…˜aK              | ŠÇ—E     |
+| —tŽRr•ã              | ˆê”ÊE     |
+| ìŒû—TŽq              | ˆê”ÊE     |
+| ‰Á“¡º—Y              | ˆê”ÊE     |
+| _“c²’mŽq            | ˆê”ÊE     |
+| –Ø‘ºˆê˜Y              | ‘‡E     |
+| ’†àVN‘ã              | ˆê”ÊE     |
+| ¼—Yˆê                | ˆê”ÊE     |
+| V“nŒËNŽ¡            | ˆê”ÊE     |
+| –ìã—˜]              | ˆê”ÊE     |
+| ²“¡’qŽq              | ŠÇ—E     |
+| –…”ötŽ÷              | ŠÇ—E     |
+| ´…tŽq              | ‘‡E     |
+| “c’†^—RŽq            | ‘‡E     |
+| “c•Ó³ˆê              | ˆê”ÊE     |
+| Ž›‰ª—zˆê              | ŠÇ—E     |
+| ‹ß“cWŽq              | ŠÇ—E     |
+| ‰“ŽR^ˆê              | ŠÇ—E     |
+| ŒËì‚æ‚µ‚Ý            | ‘‡E     |
+| ’Ã‘º’m”ü              | ‘‡E     |
+| ã“cˆê–ç              | ŠÇ—E     |
+| ŽR“c“Þ”ü              | ŠÇ—E     |
++-----------------------+------------+
