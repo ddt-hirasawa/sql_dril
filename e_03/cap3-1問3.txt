@@ -1,0 +1,25 @@
+MariaDB [workbook]> insert into
+    ->
+    -> depart
+    ->
+    -> values
+    -> (
+    ->
+    -> 'E03',
+    -> '‘æO‰c‹Æ•”'
+    ->
+    -> )
+    -> ;
+Query OK, 1 row affected (0.00 sec)
+
+MariaDB [workbook]> select * from depart;
++-----------+-------------+
+| depart_id | depart_name |
++-----------+-------------+
+| E01       | ‘æˆê‰c‹Æ•”  |
+| E02       | ‘æ“ñ‰c‹Æ•”  |
+| E03       | ‘æO‰c‹Æ•”  |
+| J01       | l–•”      |
+| S01       | Œo‰cŠé‰æ•”  |
+| S02       | ‘–±•”      |
++-----------+-------------+
