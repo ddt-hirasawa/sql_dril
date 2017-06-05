@@ -1,0 +1,30 @@
+select
+    ->
+    -> sh.s_name AS Žx“X,
+    ->
+    -> SUM(sl.s_value) AS ”„ã
+    ->
+    -> from sales AS sl
+    ->
+    -> INNER JOIN
+    ->
+    -> shop AS sh
+    ->
+    -> ON sl.s_id = sh.s_id
+    ->
+    -> group by
+    ->
+    -> sh.s_id,
+    -> sh.s_name
+    ->
+    -> order by ”„ã ASC
+    -> ;
++--------------+-------+
+| Žx“X         | ”„ã  |
++--------------+-------+
+| ŽO‹g’¬“ì“X   | 12032 |
+| “Œ÷’¬“X     | 19836 |
+| –k‰Ô’¬“Œ“X   | 20580 |
+| –k‰Ô’¬‰w‘O“X | 21376 |
+| ŽO‹g’¬“X     | 21929 |
++--------------+-------+
