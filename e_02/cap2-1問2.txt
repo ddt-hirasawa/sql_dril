@@ -1,0 +1,27 @@
+MariaDB [workbook]> select
+    ->
+    -> sh.s_name AS x“X,
+    ->
+    -> sl.s_value AS ”„ã
+    ->
+    -> from sales AS sl
+    ->
+    -> INNER JOIN
+    ->
+    -> shop AS sh
+    ->
+    -> ON
+    ->
+    -> sl.s_id = sh.s_id
+    ->
+    -> where sl.s_date = '2012-12'
+    ->
+    -> order by sl.s_value DESC;
++--------------+-------+
+| x“X         | ”„ã  |
++--------------+-------+
+| –k‰Ô’¬‰w‘O“X | 11234 |
+| O‹g’¬“X     | 11145 |
+| –k‰Ô’¬“Œ“X   | 10456 |
+| “Œ÷’¬“X     |  9861 |
++--------------+-------+
