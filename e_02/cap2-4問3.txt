@@ -1,0 +1,52 @@
+MariaDB [workbook]> select
+    ->
+    -> mo.order_date AS 発注日,
+    -> mo.po_id AS 注文コード,
+    -> CONCAT(u.f_name,u.l_name) AS 利用者名,
+    -> pro.p_name AS 商品名,
+    -> pro.price AS 商品単価,
+    -> de.quantity AS 購入数
+    ->
+    -> from(
+    -> (
+    ->
+    -> order_main AS mo
+    ->
+    -> INNER JOIN
+    ->
+    -> order_desc AS de
+    ->
+    -> ON
+    ->
+    -> mo.po_id = de.po_id
+    -> )
+    ->
+    -> INNER JOIN
+    ->
+    -> product AS pro
+    ->
+    -> ON
+    ->
+    -> de.p_id = pro.p_id
+    -> )
+    ->
+    -> INNER JOIN
+    ->
+    -> usr AS u
+    ->
+    -> ON
+    ->
+    -> mo.user_id = u.user_id
+    ->
+    -> where mo.delivery_date IS NULL
+    ->
+    -> order by mo.order_date ASC,
+    -> mo.po_id ASC,
+    -> de.p_id ASC
+    -> ;
++------------+------------+----------+--------------+----------+--------+
+| 発注日     | 注文コード | 利用者名 | 商品名       | 商品単価 | 購入数 |
++------------+------------+----------+--------------+----------+--------+
+| 2012-12-22 |         19 | 絵里森本 | 赤ボールペン |      100 |    100 |
+| 2012-12-25 |         20 | 文子西島 | 電卓         |      600 |     10 |
++------------+------------+----------+--------------+----------+--------+
