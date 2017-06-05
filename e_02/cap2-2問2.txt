@@ -1,0 +1,23 @@
+MariaDB [workbook]> select
+    ->
+    -> d.depart_id,
+    -> d.depart_name
+    ->
+    -> from
+    ->
+    -> depart AS d
+    ->
+    -> LEFT JOIN
+    ->
+    -> employee AS e
+    ->
+    -> ON
+    ->
+    -> d.depart_id = e.depart_id
+    ->
+    -> where e.depart_id IS NULL;
++-----------+-------------+
+| depart_id | depart_name |
++-----------+-------------+
+| E02       | ‘æ“ñ‰c‹Æ•”  |
++-----------+-------------+;
