@@ -1,0 +1,21 @@
+e_04=# create table
+e_04-#
+e_04-# sales
+e_04-# (
+e_04(# s_id char(5) NOT NULL,
+e_04(# s_date DATE NOT NULL,
+e_04(# s_value INT DEFAULT 0
+e_04(# )
+e_04-# ;
+CREATE TABLE
+e_04=# alter table
+e_04-#
+e_04-# sales
+e_04-#
+e_04-# ADD
+e_04-#
+e_04-# primary key(s_id,s_date);
+ALTER TABLE
+e_04=# select * from sales;
+ s_id | s_date | s_value
+------+--------+---------
