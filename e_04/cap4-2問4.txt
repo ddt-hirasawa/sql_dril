@@ -1,0 +1,14 @@
+workbook=# create index
+workbook-#
+workbook-# ind_usr
+workbook-#
+workbook-# on
+workbook-#
+workbook-# usr
+workbook-# (
+workbook(# prefecture,
+workbook(# city,
+workbook(# o_address
+workbook(# )
+workbook-# ;
+CREATE INDEX
