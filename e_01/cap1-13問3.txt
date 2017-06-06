@@ -1,3 +1,6 @@
+cap1-13問3　テーブル access_log からアクセス数を求め
+10未満なら C 50以下なら B 50以上なら A 評価を付けて表示せよ
+
 MariaDB [workbook]> select
     ->
     -> referer as リンク,

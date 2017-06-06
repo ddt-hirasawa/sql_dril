@@ -1,3 +1,5 @@
+cap1-13問4　テーブルauthor_books から著者毎の書籍数を求めよ。また、この書籍数で
+書籍量の評価をせよ
 
 MariaDB [workbook]> select
     ->

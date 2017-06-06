@@ -1,3 +1,5 @@
+cap1-13問5 テキストの記述誤りを見つけ、正しいSQLコードで表示させよ 
+
 MariaDB [workbook]> select
     ->
     -> CONCAT(l_name,f_name),

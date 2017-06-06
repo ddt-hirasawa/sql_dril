@@ -1,3 +1,6 @@
+cap1-13問2 テーブルrentalからデータを取り出し、その貸出数から評価を付けて表示せよ
+
+
 MariaDB [workbook]> select
     -> isbn,
     -> count(*),

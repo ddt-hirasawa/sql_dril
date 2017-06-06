@@ -1,3 +1,5 @@
+cap1-13問1 テーブル quest から name answer1,2を取り出し caseで評価を付けよ
+
 MariaDB [workbook]> select
     -> name as 氏名,
     -> answer1 AS 評価,
