@@ -1,0 +1,22 @@
+workbook=# delete from
+workbook-#
+workbook-# sales
+workbook-#
+workbook-# where s_id NOT IN
+workbook-# (
+workbook(# select
+workbook(#
+workbook(# s_id
+workbook(#
+workbook(# from shop
+workbook(#
+workbook(# )
+workbook-# ;
+DELETE 1
+workbook=# select * from sales;
+ s_id  | s_date  | s_value
+-------+---------+---------
+ M0001 | 2012-12 |   11145
+ H0001 | 2012-12 |    9861
+ K0001 | 2012-12 |   11234
+ K0002 | 2012-12 |   10456
