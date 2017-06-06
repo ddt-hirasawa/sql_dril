@@ -1,0 +1,30 @@
+e_04=# create table
+e_04-#
+e_04-# sales
+e_04-# (
+e_04(# s_id CHAR(5) NOT NULL,
+e_04(# s_date DATE,
+e_04(# s_value INT NULL,
+e_04(# primary key(s_id)
+e_04(# )
+e_04-# ;
+CREATE TABLE
+e_04=# insert into
+e_04-# sales
+e_04-# (
+e_04(# s_id,
+e_04(# s_date,
+e_04(# s_value
+e_04(# )
+e_04-# values
+e_04-# (
+e_04(# 'K0001',
+e_04(# NOW(),
+e_04(# 100
+e_04(# )
+e_04-# ;
+INSERT 0 1
+e_04=# select * from sales;
+ s_id  |   s_date   | s_value
+-------+------------+---------
+ K0001 | 2017-06-06 |     100
