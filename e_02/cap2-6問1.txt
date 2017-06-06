@@ -1,0 +1,38 @@
+MariaDB [workbook]> select
+    ->
+    -> q.name_kana
+    ->
+    -> from quest AS q
+    ->
+    -> where sex = '女'
+    ->
+    -> UNION ALL
+    ->
+    -> select
+    ->
+    -> CONCAT(e.l_name_kana,e.f_name_kana)
+    ->
+    -> from employee AS e
+    ->
+    -> where e.sex = 2
+    ->
+    -> order by 1 ASC;
++----------------+
+| name_kana      |
++----------------+
+| イノウエマリ   |
+| ウエハラハルカ |
+| エモトシュウコ |
+| オノヒロミ     |
+| カワグチユウコ |
+| サトウトモコ   |
+| シミズハルコ   |
+| タナカマユコ   |
+| チカダアキコ   |
+| ツムラカズミ   |
+| トガワヨシミ   |
+| ナカザワヤスヨ |
+| ネギシアユミ   |
+| ノガミリエ     |
+| ヤマダナミ     |
++----------------+
