@@ -1,0 +1,13 @@
+workbook=# create index
+workbook-#
+workbook-# int_order
+workbook-#
+workbook-# on
+workbook-#
+workbook-# order_main
+workbook-# (
+workbook(# order_date,
+workbook(# delivery_date
+workbook(# )
+workbook-# ;
+CREATE INDEX
