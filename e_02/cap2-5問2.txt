@@ -1,0 +1,21 @@
+MariaDB [workbook]> select
+    ->
+    -> depart_id,
+    ->
+    -> depart_name
+    ->
+    -> from depart
+    ->
+    -> where NOT EXISTS
+    -> (
+    ->
+    -> select * from employee
+    ->
+    -> where employee.depart_id = depart.depart_id
+    -> )
+    -> ;
++-----------+-------------+
+| depart_id | depart_name |
++-----------+-------------+
+| E02       | ‘æ“ñ‰c‹Æ•”  |
++-----------+-------------+
