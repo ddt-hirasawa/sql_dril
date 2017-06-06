@@ -1,0 +1,44 @@
+cap2-5問3 shop sales のテーブルから2012年12月の売り上げが下回っている店舗を表示せよ
+
+MariaDB [workbook]> select
+    ->
+    -> sh.s_name,
+    -> sl.s_value
+    ->
+    -> from
+    ->
+    -> sales AS sl
+    ->
+    -> INNER JOIN
+    ->
+    -> shop AS sh
+    ->
+    -> ON
+    ->
+    -> sl.s_id = sh.s_id
+    ->
+    -> where sl.s_date = '2012-12'
+    ->
+    -> AND
+    ->
+    -> sl.s_value <
+    -> (
+    -> select
+    ->
+    -> AVG(s_value)
+    ->
+    -> from
+    ->
+    -> sales
+    ->
+    -> where
+    ->
+    -> s_date = '2012-12'
+    -> )
+    -> ;
++------------+---------+
+| s_name     | s_value |
++------------+---------+
+| 東桜町店   |    9861 |
+| 北花町東店 |   10456 |
++------------+---------+
