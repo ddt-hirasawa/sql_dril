@@ -1,3 +1,5 @@
+cap2-2問4 employee time_card のテーブルから社員ごとの勤務時間平均を多い順に表示せよ
+
 MariaDB [workbook]> select
     ->
     -> e.l_name AS 苗字,

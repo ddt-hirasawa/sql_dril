@@ -1,3 +1,5 @@
+cap2-3問4 誤りを2つ見付け、前のコンテンツコードを現在について昇順で取り出せ
+
 MariaDB [workbook]> select
     ->
     -> cp.c_id AS 前のページ,

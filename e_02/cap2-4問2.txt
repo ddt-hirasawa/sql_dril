@@ -1,3 +1,5 @@
+cap2-4問2 contents テーブルから 前 現在 次のコンテンツ名を取り出し昇順に表示せよ
+
 MariaDB [workbook]> select
     ->
     -> past.c_title AS 前コンテンツ名,

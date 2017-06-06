@@ -1,3 +1,5 @@
+cap2-1問1 テーブルemployee time_card を結合し 2012年の12月の勤務時間を表示せよ
+
 MariaDB [workbook]> select
     ->
     -> e.l_name AS 苗字,

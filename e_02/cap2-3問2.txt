@@ -1,3 +1,5 @@
+cap2-3問2 menu テーブルから親メニュー メニューコードを昇順に取り出せ
+
 MariaDB [workbook]> select
     ->
     -> now.title AS メニュー名,

@@ -1,3 +1,5 @@
+cap2-1問2 テーブルshop sales のデータから2012年12月の売り上げを高い順に表示せよ
+
 MariaDB [workbook]> select
     ->
     -> sh.s_name AS 支店,

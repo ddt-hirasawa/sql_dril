@@ -1,3 +1,5 @@
+cap2-2問2 employee depart のテーブルから所属社員がいない部署を表示せよ
+
 MariaDB [workbook]> select
     ->
     -> d.depart_id,

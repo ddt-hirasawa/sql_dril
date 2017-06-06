@@ -1,3 +1,5 @@
+cap2-1問4 rental usr のテーブルからユーザーが現在何冊借りているのか貸出数の多い順に表示せよ
+
 MariaDB [workbook]> select
     ->
     -> USR.l_name AS 苗字,

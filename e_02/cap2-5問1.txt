@@ -1,3 +1,5 @@
+cap2-5問1 アンケート回答テーブルから平均年齢を超えている回答を年齢の低い順に取り出せ
+
 MariaDB [workbook]> select
     ->
     -> answer1 AS 評価,
