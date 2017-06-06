@@ -1,0 +1,22 @@
+e_04=# create table
+e_04-#
+e_04-# author
+e_04-# (
+e_04(# author_id char(5) NOT NULL,
+e_04(# name VARCHAR(30),
+e_04(# name_kana VARCHAR(100),
+e_04(# birth DATE
+e_04(# )
+e_04-# ;
+CREATE TABLE
+e_04=# \z
+                           アクセス権
+ スキーマ |  名前  |    型    | アクセス権 | 列の権限 | ポリシー
+----------+--------+----------+------------+----------+----------
+ public   | author | テーブル |            |          |
+(1 行)
+
+
+e_04=# select * from author;
+ author_id | name | name_kana | birth
+-----------+------+-----------+-------
