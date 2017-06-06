@@ -1,0 +1,12 @@
+workbook=# create index
+workbook-#
+workbook-# ind_product
+workbook-#
+workbook-# on
+workbook-#
+workbook-# product
+workbook-# (
+workbook(# p_name
+workbook(# )
+workbook-# ;
+CREATE INDEX
