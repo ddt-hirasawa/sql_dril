@@ -1,0 +1,35 @@
+e_04=# create table
+e_04-#
+e_04-# rental
+e_04-# (
+e_04(# id INTEGER DEFAULT nextval('users_id_seq') primary key,
+e_04(# user_id char(7),
+e_04(# isbn char(13),
+e_04(# rental_date DATE,
+e_04(# returned SMALLINT DEFAULT 0
+e_04(# )
+e_04-# ;
+CREATE TABLE
+e_04=# insert into
+e_04-#
+e_04-# rental
+e_04-# (
+e_04(# user_id,
+e_04(# isbn,
+e_04(# rental_date,
+e_04(# returned
+e_04(# )
+e_04-#
+e_04-# values
+e_04-# (
+e_04(# 'A200501',
+e_04(# '4-0010-0000-0',
+e_04(# NOW(),
+e_04(# 1
+e_04(# )
+e_04-# ;
+INSERT 0 1
+e_04=# select * from rental;
+ id | user_id |     isbn      | rental_date | returned
+----+---------+---------------+-------------+----------
+  1 | A200501 | 4-0010-0000-0 | 2017-06-06  |        1
