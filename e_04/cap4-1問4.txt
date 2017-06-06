@@ -1,0 +1,40 @@
+e_04=# create table
+e_04-#
+e_04-# books
+e_04-# (
+e_04(# isbn char(13) NOT NULL,
+e_04(# title TEXT NOT NULL,
+e_04(# price INT NULL,
+e_04(# publish TEXT,
+e_04(# publish_date DATE,
+e_04(# category_id char(10) NOT NULL,
+e_04(# primary key(category_id)
+e_04(# )
+e_04-# ;
+CREATE TABLE
+e_04=# insert into
+e_04-# books
+e_04-# (
+e_04(# isbn,
+e_04(# title,
+e_04(# price,
+e_04(# publish,
+e_04(# publish_date,
+e_04(# category_id
+e_04(# )
+e_04-#
+e_04-# values
+e_04-# (
+e_04(# '4-0010-0000-0',
+e_04(# 'ハムスターの観察',
+e_04(# 900,
+e_04(# '山田出版',
+e_04(# NOW(),
+e_04(# 'Z9999'
+e_04(# )
+e_04-# ;
+INSERT 0 1
+e_04=# select * from books;
+     isbn      |      title       | price | publish  | publish_date | category_id
+---------------+------------------+-------+----------+--------------+-------------
+ 4-0010-0000-0 | ハムスターの観察 |   900 | 山田出版 | 2017-06-06   | Z9999
