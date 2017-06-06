@@ -1,3 +1,5 @@
+cap4-3–â4 usr ‚Ìf_name_kana‚ÌŒã•û‚©‚ç—ñ‚ð2‚Â’Ç‰Á‚¹‚æ
+
 PostGreSQL ‚Å‚ÍAFTER ‚ªŽg‚¦‚È‚¢‚æ‚¤‚Å‚·‚Ì‚Å––”ö‚É’Ç‰Á‚µ‚Ü‚µ‚½
 
 workbook=# alter table

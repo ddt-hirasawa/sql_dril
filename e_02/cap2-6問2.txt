@@ -1,3 +1,5 @@
+cap2-6問2 usr quest のテーブルからusr に登録されていないもののみを取り出すこと
+
 workbook=# select
 workbook-#
 workbook-# u.l_name || u.f_name

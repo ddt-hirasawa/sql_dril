@@ -1,3 +1,5 @@
+cap2-6問1 quest employee テーブルから女性の氏名（カナ）を取り出し昇順で表示せよ
+
 MariaDB [workbook]> select
     ->
     -> q.name_kana

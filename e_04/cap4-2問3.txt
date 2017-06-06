@@ -1,3 +1,5 @@
+cap4-2問3 product における商品名をキーとしたインデックスを作成せよ
+
 workbook=# create index
 workbook-#
 workbook-# ind_product

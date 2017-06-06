@@ -1,3 +1,5 @@
+cap3-4問6 employeeの役職を 部長 -> リーダ ,課長 -> マネージャに更新せよ
+
 workbook=# update
 workbook-#
 workbook-# employee

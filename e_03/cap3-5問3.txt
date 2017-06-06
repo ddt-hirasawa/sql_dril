@@ -1,3 +1,5 @@
+cap3-5問3 出版社 日経BP が価格を１０％オフにしました。booksにも反映させよ
+
 workbook=# update
 workbook-#
 workbook-# books

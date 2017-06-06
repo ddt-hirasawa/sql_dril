@@ -1,3 +1,5 @@
+cap3-2問3 テキストに記載するデータを author に挿入せよ
+
 MariaDB [workbook]> insert into
     ->
     -> author

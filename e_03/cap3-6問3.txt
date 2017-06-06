@@ -1,3 +1,4 @@
+cap3-6問3 空白を埋め、booksのタイトルに分類名を付加せよ
 
 workbook=# update
 workbook-#

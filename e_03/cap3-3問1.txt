@@ -1,3 +1,5 @@
+cap3-3問1 空白を埋め,time_card テーブルからemployeeの指定した役職のコードを挿入せよ
+
 MariaDB [workbook]> insert into
     ->
     -> time_card

@@ -1,3 +1,5 @@
+cap4-3問5 誤りを2つ見付け、employeeテーブルのdepart_idの後方に email列を追加せよ
+
 MariaDB [workbook]> alter table
     ->
     -> employee

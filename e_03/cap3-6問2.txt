@@ -1,3 +1,5 @@
+cap3-6問2 空白を埋め、問1をサブクエリで書き直せ
+
 workbook=# update
 workbook-#
 workbook-# employee

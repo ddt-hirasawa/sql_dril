@@ -1,3 +1,5 @@
+cap4-2問4 誤りを2つ見付け、usr上の 都道府県、市町村、その他で複合インデックスを作成せよ
+
 workbook=# create index
 workbook-#
 workbook-# ind_usr

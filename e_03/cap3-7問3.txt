@@ -1,3 +1,5 @@
+cap3-7問3 employee から退職済みで2007-03-31以降に更新しているデータを削除せよ
+
 workbook=# delete from
 workbook-#
 workbook-# employee

@@ -1,3 +1,5 @@
+cap3-1問1 テキストの空白部分を記述しデータの挿入をせよ
+
 MariaDB [workbook]> insert into
     ->
     -> books

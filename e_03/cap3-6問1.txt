@@ -1,3 +1,5 @@
+cap3-6問1 空白を埋め、employee上のdepartにない所属部署のコードをZ99に更新せよ
+
 workbook=# update
 workbook-#
 workbook-# employee

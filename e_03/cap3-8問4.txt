@@ -1,3 +1,5 @@
+cap3-8問4 returnedで紛失になっているレコードについて、booksから削除せよ
+
 workbook=# delete from
 workbook-#
 workbook-# books

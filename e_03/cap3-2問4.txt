@@ -1,3 +1,5 @@
+cap3-2–â4 Œë‚è‚ð2‚ÂŒ©‚Â‚¯,employee‚Éƒf[ƒ^‚ð‘}“ü‚¹‚æ
+
 MariaDB [workbook]> insert into
     ->
     -> employee

@@ -1,3 +1,5 @@
+cap4-2問2 空白を埋め、order_main上の発注日、注文時をキーとしたインデックスを作成せよ
+
 workbook=# create index
 workbook-#
 workbook-# int_order

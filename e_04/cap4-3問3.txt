@@ -1,3 +1,5 @@
+cap4-3–â3 books ‚Ìcategory_id‚ÌŒã•û‚Ésales—ñ‚ð’Ç‰Á‚¹‚æ
+
 workbook=# alter table
 workbook-#
 workbook-# books
