@@ -1,0 +1,16 @@
+e_04=#
+e_04=# create table
+e_04-#
+e_04-# order_desc
+e_04-# (
+e_04(# po_id INT NOT NULL,
+e_04(# p_id CHAR(10) NOT NULL,
+e_04(# quantity INT NULL,
+e_04(# PRIMARY KEY(po_id,p_id)
+e_04(#
+e_04(# )
+e_04-# ;
+CREATE TABLE
+e_04=# select * from order_desc;
+ po_id | p_id | quantity
+-------+------+----------
