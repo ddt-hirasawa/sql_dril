@@ -1,0 +1,38 @@
+workbook=# update
+workbook-#
+workbook-# books
+workbook-#
+workbook-# set
+workbook-#
+workbook-# category_id = 'XXXXX'
+workbook-#
+workbook-# where isbn IN
+workbook-# (
+workbook(#
+workbook(# select
+workbook(#
+workbook(# isbn
+workbook(#
+workbook(# from rental
+workbook(#
+workbook(# where returned = 9
+workbook(# )
+workbook-# ;
+UPDATE 4
+workbook=# select * from books;
+       isbn        |         title          | price |   publish    | publish_date | category_id
+-------------------+------------------------+-------+--------------+--------------+-------------
+ 4-7981-0722-0     | XML辞典XML             |  3300 | 翔泳社       | 2011-09-16   | XXXXX
+ 4-7980-0522-3     | JSPリファレンスJava    |  1800 | 秀和システム | 2010-04-19   | XXXXX
+ 4-0010-0000-0     | ハムスターの観察未分類 |   900 | WINGS出版    | 2010-11-01   | XXXXX
+ 4-8833-0000-2     | SQLプチブックSQL       |  1439 | 日経BP       | 2010-11-30   | XXXXX
+ 4-7981-0959-2     | PEAR入門PHP            |  3000 | 翔泳社       | 2012-09-08   | P1111
+ 4-7980-0945-8     | PHP5サンプル集PHP      |  3000 | 秀和システム | 2012-11-01   | P1111
+ 4-0010-0000-4     | フェレットの観察未分類 |  1000 | WINGS出版    | 2012-10-26   | Z9999
+ 4-0010-0000-9     | SQL入門SQL             |  5500 | WINGS出版    | 2012-10-30   | S2222
+ 4-8833-0000-1     | SQLリファレンスSQL     |  2250 | 日経BP       | 2013-02-15   | S2222
+ 4-8833-0000-3     | XMLリファレンスXML     |  2880 | 日経BP       | 2012-11-24   | X3333
+ 4-0010-0000-1     | PHPドリルPHP           |  5100 | WINGS出版    | 2013-01-14   | P1111
+ 4-0010-0000-5     | らくだの観察日記未分類 |  1101 | WINGS出版    | 2012-12-24   | Z9999
+ 4-0010-0000-6     | あひるの観察日記未分類 |   700 | WINGS出版    | 2012-11-15   | Z9999
+ 4-0010-0000-7     | かえるの観察日記未分類 |   800 | WINGS出版    | 2013-01-15   | Z9999
