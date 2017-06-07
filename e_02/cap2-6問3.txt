@@ -1,0 +1,32 @@
+cap2-6問3 usr quest テーブルから千葉県に住んでいる人間を重複させず表示せよ
+
+workbook=# select
+workbook-#
+workbook-# u.l_name || u.f_name
+workbook-#
+workbook-# from
+workbook-#
+workbook-# usr AS u
+workbook-#
+workbook-# where u.prefecture = '千葉県'
+workbook-#
+workbook-# UNION
+workbook-#
+workbook-# select
+workbook-#
+workbook-# q.name_kana
+workbook-#
+workbook-# from
+workbook-#
+workbook-# quest AS q
+workbook-#
+workbook-# where
+workbook-#
+workbook-# q.prefecture = '千葉県'
+workbook-#
+workbook-# order by 1 DESC
+workbook-# ;
+   ?column?
+--------------
+ ネギシアユミ
+ アリキマモル
