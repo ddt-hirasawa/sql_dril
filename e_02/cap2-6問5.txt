@@ -1,0 +1,23 @@
+cap2-6問5 usr quest テーブルからそれぞれに含まれるデータを表示させよ
+
+workbook=# select
+workbook-#
+workbook-# l_name || f_name
+workbook-#
+workbook-# from
+workbook-#
+workbook-# usr AS u
+workbook-#
+workbook-# intersect
+workbook-#
+workbook-# select
+workbook-#
+workbook-# q.name
+workbook-#
+workbook-# from
+workbook-#
+workbook-# quest AS q
+workbook-# ;
+ ?column?
+----------
+ 山田太郎
